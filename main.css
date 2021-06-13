@@ -1,0 +1,98 @@
+body {
+    background: #7DCEC8;
+    
+    font-family: 'Nunito', sans-serif;
+  }
+  
+  #main {
+    display: flex;
+    align-flex:center;
+    width:95%;
+    margin: 10px;
+    padding: 5px;
+    border: 5px solid #000;
+    flex-direction: column;
+      align-items: center;
+    -webkit-justify-content: center;
+    /* Safari */
+    justify-content: center;
+    flex-wrap:nowrap;
+  }
+  #title{
+    flex-basis: auto;
+    font-size:3em;
+    magin:0;
+    padding:0.9%;
+    background-color:#000;
+    color:#fff;
+    transform: skew(-3deg);
+    
+  }
+  img{
+    margin:auto;
+    max-width: 50%;
+    height: auto;
+    display: block;
+    align-self: center;
+  }
+  #img-caption{
+    text-align:center;
+    color:#fcfcfe;
+    font-size:2em;
+    max-width: 100%;
+    font-weight: bold;
+    
+  }
+  h2{
+    margin-top:0px 2px 0px 2px;
+    padding:5px;
+    height:100%;
+    width:99.5%;
+    background-color:#FDACB0;
+    text-align:center;
+    border:0.1px solid #000;
+  }
+  #Time-line{
+    background-color:#000;
+    color:white;
+    padding:10px;
+    font-size:2em;
+  }
+  #tribute-info{
+     margin-left:45%;
+    
+    display:block;
+    
+  }
+  #tribute-link{
+    background-color:#FDACB0;
+     text-decoration: none;
+     color:#fff;
+  }
+  #tribute-link:hover{
+    
+     text-decoration: none;
+     color:#000;
+  }
+  
+  .biblio-content {
+    padding:10px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    align-items: center;
+    
+  }
+  .bibliography{
+    padding:10px;
+    background-color:#FFF6E6;
+    border:1px solid #000;
+    text-align:center;
+    margin:10px;
+    transition: 0.3s ; 
+    font-weight: bold;
+  }
+  .bibliography:hover{
+    transform: scale(1.002,1.002);
+    box-shadow: 2px 3px 24px 0px rgba(0,0,0,0.9) ;
+  }
